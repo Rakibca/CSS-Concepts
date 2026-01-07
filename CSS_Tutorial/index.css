@@ -84,3 +84,14 @@ div {
 p {
   background-color: yellow;
 }
+
+/* Opacity or Transparency */
+div {
+  background-color: green;
+  opacity: 0.3;
+}
+
+/* Transparency using RGBA */
+div {
+  background: rgba(0, 128, 0, 0.3); /* Green background with 30% opacity */
+}
