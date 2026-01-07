@@ -52,19 +52,26 @@ h1 {
   border: 2px solid Tomato;
 }
 
-/*
+/* 
 CSS Color Values
 Same as color name "Tomato":
-<h1 style="background-color:rgb(255, 99, 71);">...</h1>
-<h1 style="background-color:#ff6347;">...</h1>
-<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
+*/
+h1 {
+  background-color: rgb(255, 99, 71);
+  background-color: #ff6347;
+  background-color: hsl(9, 100%, 64%);
+}
 
+/* 
+CSS Color Values
 Same as color name "Tomato", but 50% transparent:
-<h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
-<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
- */
+*/
+h1 {
+  background-color: rgba(255, 99, 71, 0.5);
+  background-color: hsla(9, 100%, 64%, 0.5);
+}
 
-/* CSS Border Color */
+/* CSS background-color */
 body {
   background-color: lightblue;
 }
