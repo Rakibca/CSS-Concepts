@@ -63,3 +63,8 @@ Same as color name "Tomato", but 50% transparent:
 <h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
 <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
  */
+
+/* CSS Border Color */
+body {
+  background-color: lightblue;
+}
