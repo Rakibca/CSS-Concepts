@@ -54,7 +54,7 @@ h1 {
 
 /* 
 CSS Color Values
-Same as color name "Tomato":
+Same as color name "Tomato"
 */
 h1 {
   background-color: rgb(255, 99, 71);
@@ -64,7 +64,7 @@ h1 {
 
 /* 
 CSS Color Values
-Same as color name "Tomato", but 50% transparent:
+Same as color name "Tomato", but 50% transparent
 */
 h1 {
   background-color: rgba(255, 99, 71, 0.5);
@@ -74,4 +74,13 @@ h1 {
 /* CSS background-color */
 body {
   background-color: lightblue;
+}
+h1 {
+  background-color: green;
+}
+div {
+  background-color: lightblue;
+}
+p {
+  background-color: yellow;
 }
