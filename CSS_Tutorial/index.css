@@ -95,3 +95,11 @@ div {
 div {
   background: rgba(0, 128, 0, 0.3); /* Green background with 30% opacity */
 }
+
+/* CSS background-image */
+body {
+  background-image: url('paper.gif');
+}
+p {
+  background-image: url('paper.gif');
+}
