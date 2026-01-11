@@ -103,3 +103,15 @@ body {
 p {
   background-image: url('paper.gif');
 }
+
+/* CSS background-repeat Horizontally */
+body {
+  background-image: url('gradient_bg.png');
+  background-repeat: repeat-x;
+}
+
+/* CSS background-repeat Vertically */
+body {
+  background-image: url('gradient_bg.png');
+  background-repeat: repeat-y;
+}
