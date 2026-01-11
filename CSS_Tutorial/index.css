@@ -115,3 +115,16 @@ body {
   background-image: url('gradient_bg.png');
   background-repeat: repeat-y;
 }
+
+/* CSS background-repeat: no-repeat */
+body {
+  background-image: url('img_tree.png');
+  background-repeat: no-repeat;
+}
+
+/* CSS background-position */
+body {
+  background-image: url('img_tree.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+}
