@@ -128,3 +128,77 @@ body {
   background-repeat: no-repeat;
   background-position: right top;
 }
+
+/* CSS background-attachment */
+body {
+  background-image: url('img_tree.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+body {
+  background-image: url('img_tree.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: scroll;
+}
+
+/* CSS background - Shorthand property */
+body {
+  background-color: #ffffff;
+  background-image: url('img_tree.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+body {
+  background: #ffffff url('img_tree.png') no-repeat right top;
+}
+
+/*
+The background property is a shorthand property for the following properties:
+background-color
+background-image
+background-position
+background-size
+background-repeat
+background-attachment
+background-origin
+background-clip
+*/
+
+/* CSS Border Style */
+p.dotted {
+  border-style: dotted;
+}
+p.dashed {
+  border-style: dashed;
+}
+p.solid {
+  border-style: solid;
+}
+p.double {
+  border-style: double;
+}
+p.groove {
+  border-style: groove;
+}
+p.ridge {
+  border-style: ridge;
+}
+p.inset {
+  border-style: inset;
+}
+p.outset {
+  border-style: outset;
+}
+p.none {
+  border-style: none;
+}
+p.hidden {
+  border-style: hidden;
+}
+p.mix {
+  border-style: dotted dashed solid double;
+}
+
+/* CSS Border Width */
