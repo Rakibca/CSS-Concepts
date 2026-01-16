@@ -232,3 +232,43 @@ p.three {
   border-style: solid;
   border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
 }
+
+/* CSS Border Color */
+p.one {
+  border-style: solid;
+  border-color: red;
+}
+
+p.two {
+  border-style: solid;
+  border-color: green;
+}
+
+p.three {
+  border-style: dotted;
+  border-color: blue;
+}
+
+/* Specific Side Colors */
+p.one {
+  border-style: solid;
+  border-color: red green blue yellow; /* red top, green right, blue bottom and yellow left */
+}
+
+/* HEX Values */
+p.one {
+  border-style: solid;
+  border-color: #ff0000; /* red */
+}
+
+/* RGB Values */
+p.one {
+  border-style: solid;
+  border-color: rgb(255, 0, 0); /* red */
+}
+
+/* HSL Values */
+p.one {
+  border-style: solid;
+  border-color: hsl(0, 100%, 50%); /* red */
+}
