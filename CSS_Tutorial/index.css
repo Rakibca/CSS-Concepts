@@ -401,3 +401,32 @@ div {
   padding: 25px;
   box-sizing: border-box;
 }
+
+/* CSS height and width Values */
+div {
+  height: 200px;
+  width: 50%;
+  background-color: powderblue;
+}
+div {
+  height: 100px;
+  width: 500px;
+  background-color: powderblue;
+}
+
+/* CSS Using max-width */
+.div1 {
+  max-width: 500px;
+  background-color: powderblue;
+}
+.div2 {
+  width: 500px;
+  background-color: powderblue;
+}
+
+/* CSS Using both width and max-width */
+.div1 {
+  width: 100%;
+  max-width: 900px;
+  background-color: powderblue;
+}
