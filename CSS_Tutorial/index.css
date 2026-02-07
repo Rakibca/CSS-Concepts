@@ -1,5 +1,3 @@
-/*  */
-
 /* The CSS element Selector */
 p {
   text-align: center;
@@ -568,3 +566,36 @@ p.ex5 {
   outline: thick solid green;
   border-radius: 10px;
 }
+
+/* CSS Outline Offset */
+p {
+  margin: 30px;
+  padding: 5px;
+  border: 1px solid black;
+  outline: 3px solid red;
+  outline-offset: 15px;
+}
+p {
+  margin: 30px;
+  padding: 5px;
+  background: yellow;
+  border: 1px solid black;
+  outline: 3px solid red;
+  outline-offset: 15px;
+}
+
+/* CSS Outline Offset with Negative Value */
+p {
+  margin: 30px;
+  padding: 5px;
+  background: yellow;
+  border: 1px solid black;
+  outline: 3px solid red;
+  outline-offset: -5px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
